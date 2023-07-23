@@ -1,4 +1,4 @@
-VOLUME_DIR	:=	/Desktop/juhyulee/data
+VOLUME_DIR	:=	/home/juhyulee/data
 DOCKER_COMPOSE	:=	docker-compose
 DOCKER_COMPOSE_FILE	:=	./srcs/docker-compose.yml
 PROJECT_NAME	:=	Inception
