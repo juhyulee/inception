@@ -6,6 +6,7 @@ NETWORK_NAME := network-inception
 
 .PHONY:	all
 all:
+	@mkdir -p $(VOLUME_DIR)
 	@mkdir -p $(VOLUME_DIR)/db
 	@mkdir -p $(VOLUME_DIR)/wordpress
 	$(DOCKER_COMPOSE) -f $(DOCKER_COMPOSE_FILE) up --build -d
