@@ -23,4 +23,4 @@ wp user create \
 							--user_pass=$USER_PWD
 
 sleep 5
-exec  php-fpm7.3 -F
+exec  php-fpm7.4 -F
